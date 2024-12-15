@@ -17,7 +17,7 @@ Study can be used for 2 week trial. After that it will cost 20 USD per month wit
 The study will not load if your Sierra Chart username has not been supplied to me. Email me (timothy.rochford@gmail.com) your Sierra Chart account name. 
 Your Sierra Chart account name is listed here: https://www.sierrachart.com/UserControlPanel.php#AccountDetails
 
-Download the Effective Studies file on this website and follow these steps: https://www.sierrachart.com/index.php?page=doc/UsingAdvancedCustomStudies.php#ManuallyInstallingAdvancedCustomStudyRelatedFiles 
+Download the Effective Studies file https://github.com/rochford/effective_sierrachart_release/releases/download/v1.0.0/effectiveStudies_64.dll on this website and follow these steps: https://www.sierrachart.com/index.php?page=doc/UsingAdvancedCustomStudies.php#ManuallyInstallingAdvancedCustomStudyRelatedFiles 
 For the study to load requires you send me an email with your Sierra Chart username. The study can be used for a free trial for 2 weeks and after that a monthly payment is required.
 Common problems are described here: https://www.sierrachart.com/index.php?page=doc/UsingAdvancedCustomStudies.php
 
