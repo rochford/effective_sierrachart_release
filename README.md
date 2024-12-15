@@ -4,7 +4,7 @@
 
 Release v1.0.0
 
-This is developed for myself and may be useful for you. A study collection to allow better understanding of value areas, Gaps, absorption, exhaustion and momentum.
+This is developed for myself and might be useful for you. A study collection to allow better understanding of value areas, Gaps, absorption, exhaustion and momentum.
 
 Here is a sample screenshot: ![SCREENSHOT](http://github.com/rochford/effective_sierrachart_release/blob/main/docs/effective_main.png)
 
@@ -26,6 +26,40 @@ IN5: Effective Study depends upon Numbers Bar Calculated Values. Supply the Stud
 ## Inputs
 
 ## Subgraphs
+
+GapColor = 0,
+ThinPrintColor,
+ValueAreaNormalColor,
+ValueAreaEngulfingColor,
+ValueAreaProminentPocColor,
+Exhaustion_Up,
+Exhaustion_Down,
+BarBidAskImbalanceUp,
+BarBidAskImbalanceDown,
+PriceLevelBidAskImbalanceUp,
+PriceLevelBidAskImbalanceDown,
+LargeVolumeAsk,
+LargeVolumeBid,
+SlingShotPocUp,
+SlingShotPocDown,
+PairedPoc,
+PocWaveUp,
+PocWaveDown,
+ZeroPrintUp,
+ZeroPrintDown,
+PocWaveZeroPrintUp,
+PocWaveZeroPrintDown,
+UntestedValueAreaProminentPocUp,
+UntestedValueAreaProminentPocDown,
+Ratio,
+Gap_with_Exhaustion_Up,
+Gap_with_Exhaustion_Down,
+GapZeroPrintUp,
+GapZeroPrintDown,
+GapWithVolumeDeclineUp,
+GapWithVolumeDeclineDown,
+VolumeDeclineUp1, VolumeDeclineUp2, VolumeDeclineUp3, 
+VolumeDeclineDown1, VolumeDeclineDown2, VolumeDeclineDown3, 
 
 ## Setups
 
@@ -67,7 +101,7 @@ Consider disabling IN13: 'Display Untested Value area Extension' and some of the
 
 ## Notes
 
-Only tested with 1 minute 6A EuroCurrency and 8 range charts. Other symbols and chart types are untested. 
+Tested with 1 minute and 8 range 6E EuroCurrency charts. Other symbols and chart types are untested. 
 
 ## Disclaimer
 
