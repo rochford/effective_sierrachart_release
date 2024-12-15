@@ -2,9 +2,11 @@
 
 ## Introduction
 
+Release v1.0.0
+
 This is developed for myself and may be useful for you. A study collection to allow better understanding of value areas, Gaps, absorption, exhaustion and momentum.
 
-Here is a sample screenshot: ![SCREENSHOT](http://github.com/rochford/effective_sierrachart/blob/main/docs/effective_main.png)
+Here is a sample screenshot: ![SCREENSHOT](http://github.com/rochford/effective_sierrachart_release/blob/main/docs/effective_main.png)
 
 ## Cost
 
@@ -31,11 +33,35 @@ These trade setups are combinations of various Subgraphs. In the Settings, setup
 
 ### Untested Value Area with Prominent POC
 
+Enable these settings:
+IN13: 'Display Untested Value area Extension'
+IN22: 'Setup: ValueAreaProminentPoc'
+
+Consider disabling IN14: 'Display Value Area Gaps' and check IN4: 'Prominent POC Levels (0,1,2,...)' makes sense for your chart.
+
 ### Value Area Gap with Exhaustion
+
+Enable these settings:
+IN14: 'Display Value Area Gaps'
+IN23: 'Setup: GapsWithExhaustion'
+
+Consider disabling IN13: 'Display Untested Value area Extension' and some of the other unrelated setups. 
 
 ### Value Area Gap with Zero Print
 
+Enable these settings:
+IN14: 'Display Value Area Gaps'
+IN25: 'Setup: GapsWithZeroPrint'
+
+Consider disabling IN13: 'Display Untested Value area Extension' and some of the other unrelated setups. 
+
 ### Value Area Gap with Volume Decline
+
+Enable these settings:
+IN14: 'Display Value Area Gaps'
+IN26: Setup: GapsWithVolumeDecline'
+
+Consider disabling IN13: 'Display Untested Value area Extension' and some of the other unrelated setups. 
 
 ### POC Wave with Zero Print
 
