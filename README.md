@@ -2,106 +2,69 @@
 
 ## Introduction
 
-Release v1.0.0
+Release v2.0.0
 
-This is developed for myself and might be useful for you. A study collection to allow better understanding of value areas, Gaps, absorption, exhaustion and momentum.
+This is developed for myself and might be useful for you. A study collection to allow better understanding of Value Areas, Gaps, absorption, exhaustion and momentum.
 
 Here is a sample screenshot: ![SCREENSHOT](http://github.com/rochford/effective_sierrachart_release/blob/main/docs/effective_main.png)
 
 ## Cost
 
-Study can be used for 2 week trial. After that it will cost 20 USD per month with payment made by Paypal using a link provided to you in email. I will request payment in email communication.
+Can be used without charge or commitment for first month. After that it will cost 20 USD per month with payment made by Paypal using a link provided to you in email. I will request payment in email communication. 
 
 ## Installation and Configuration
 
-The study will not load if your Sierra Chart username has not been supplied to me. Email me (timothy.rochford@gmail.com) your Sierra Chart account name. 
+The study will not load if your Sierra Chart username has not been authorized me. Email me (timothy.rochford@gmail.com) your Sierra Chart account name. 
+
 Your Sierra Chart account name is listed here: https://www.sierrachart.com/UserControlPanel.php#AccountDetails
 
-Download the Effective Studies file https://github.com/rochford/effective_sierrachart_release/releases/download/v1.0.0/effectiveStudies_64.dll on this website and follow these steps: https://www.sierrachart.com/index.php?page=doc/UsingAdvancedCustomStudies.php#ManuallyInstallingAdvancedCustomStudyRelatedFiles 
-For the study to load requires you send me an email with your Sierra Chart username. The study can be used for a free trial for 2 weeks and after that a monthly payment is required.
+Download the Effective Studies file https://github.com/rochford/effective_sierrachart_release/releases/download/v2.0.0/effectiveStudies_64.dll on this website and follow these steps: https://www.sierrachart.com/index.php?page=doc/UsingAdvancedCustomStudies.php#ManuallyInstallingAdvancedCustomStudyRelatedFiles 
 Common problems are described here: https://www.sierrachart.com/index.php?page=doc/UsingAdvancedCustomStudies.php
 
-IN5: Effective Study depends upon Numbers Bar Calculated Values. Supply the StudyID of it.  
+### Effective Main Study setup
+
+IN5: Effective Main Study depends upon Numbers Bar Calculated Values. Supply the StudyID of it.  
+
+### Effective Volume Imbalance Study setup
+
+This study requires some setup. "Volume At Price Threshold Alert V2" study must be on the chart twice. One configuration needs to highlight Bid price level imbalances and another study configuration needs to highlight Ask price level imbalances.
+See https://www.sierrachart.com/index.php?page=doc/StudiesReference.php&ID=386 . Once these 2 studies are on the chart, the Effective Volume Imbalance Study Input IN5 and IN6 need to have the study ID's set. 
 
 ## Inputs
 
 ## Subgraphs
 
-GapColor = 0,
-ThinPrintColor,
-ValueAreaNormalColor,
-ValueAreaEngulfingColor,
-ValueAreaProminentPocColor,
-Exhaustion_Up,
-Exhaustion_Down,
-BarBidAskImbalanceUp,
-BarBidAskImbalanceDown,
+Exhaustion (Exhausted Sellers and Buyers),
+BarBidAskImbalance (Bullish and Bearish),
 PriceLevelBidAskImbalanceUp,
 PriceLevelBidAskImbalanceDown,
-LargeVolumeAsk,
-LargeVolumeBid,
-SlingShotPocUp,
-SlingShotPocDown,
+SlingShotPoc (Bullish and Bearish),
 PairedPoc,
-PocWaveUp,
-PocWaveDown,
-ZeroPrintUp,
-ZeroPrintDown,
-PocWaveZeroPrintUp,
-PocWaveZeroPrintDown,
-UntestedValueAreaProminentPocUp,
-UntestedValueAreaProminentPocDown,
-Ratio,
-Gap_with_Exhaustion_Up,
-Gap_with_Exhaustion_Down,
-GapZeroPrintUp,
-GapZeroPrintDown,
-GapWithVolumeDeclineUp,
-GapWithVolumeDeclineDown,
-VolumeDeclineUp1, VolumeDeclineUp2, VolumeDeclineUp3, 
-VolumeDeclineDown1, VolumeDeclineDown2, VolumeDeclineDown3, 
+PocWave (Bullish and Bearish),
+ZeroPrint (Bullish and Bearish),
+UntestedValueAreaProminentPoc (Bullish and Bearish),
+EngulfingValueArea (Bullish and Bearish),
+Ratio (Bullish and Bearish),
+Gap between value areas,
+VolumeDecline  (Bullish and Bearish),
+RetailSuck (Bullish and Bearish),
+DeltaTail  (Bullish and Bearish),
+OpenPoc (Bullish and Bearish),
+AboveAbove (Bullish),
+BelowBelow (Bearish),
+ValueAreaIsland (Bullish and Bearish)
 
-## Setups
+In addition to subgraphs, extension lines for Untested Value Areas, gaps between value areas, thin prints, Prominent Point Of Controls and Open Point of Control lookback bars can be configured to be drawn.
 
-These trade setups are combinations of various Subgraphs. In the Settings, setups are preceeded by 'Setup: ' text.
+### VolumeImbalance
 
-### Untested Value Area with Prominent POC
-
-Enable these settings:
-IN13: 'Display Untested Value area Extension'
-IN22: 'Setup: ValueAreaProminentPoc'
-
-Consider disabling IN14: 'Display Value Area Gaps' and check IN4: 'Prominent POC Levels (0,1,2,...)' makes sense for your chart.
-
-### Value Area Gap with Exhaustion
-
-Enable these settings:
-IN14: 'Display Value Area Gaps'
-IN23: 'Setup: GapsWithExhaustion'
-
-Consider disabling IN13: 'Display Untested Value area Extension' and some of the other unrelated setups. 
-
-### Value Area Gap with Zero Print
-
-Enable these settings:
-IN14: 'Display Value Area Gaps'
-IN25: 'Setup: GapsWithZeroPrint'
-
-Consider disabling IN13: 'Display Untested Value area Extension' and some of the other unrelated setups. 
-
-### Value Area Gap with Volume Decline
-
-Enable these settings:
-IN14: 'Display Value Area Gaps'
-IN26: Setup: GapsWithVolumeDecline'
-
-Consider disabling IN13: 'Display Untested Value area Extension' and some of the other unrelated setups. 
-
-### POC Wave with Zero Print
+Example: ![SCREENSHOT](http://github.com/rochford/effective_sierrachart_release/blob/main/docs/volumeImbalance.png)
+The imbalances do not need to be adjacent (stacked) and can be anywhere in the bar. 
+A sustained imblanance in a bar is where there was a same imbalance in the previous bar. Usually a sign of sustained trading at a level.
 
 ## Notes
 
-Tested with 1 minute and 8 range 6E EuroCurrency charts. Other symbols and chart types are untested. 
+Tested with 1 minute and 8 range 6E EuroCurrency charts. Other symbols and chart types are untested but should work. 
 
 ## Disclaimer
 
