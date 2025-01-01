@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Release v2.0.0
+Release v2.0.1
 
 This is developed for myself and might be useful for you. A study collection to allow better understanding of Value Areas, Gaps, absorption, exhaustion and momentum.
 
