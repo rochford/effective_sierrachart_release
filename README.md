@@ -6,7 +6,7 @@ Visit https://www.theaceofcharts.com/products/effective-sierrachart/
 
 ## Introduction
 
-Release v4.0.1
+Release v5.0.0
 
 This is developed for myself and might be useful for you. A study collection to allow better understanding of Value Areas, Gaps, absorption, exhaustion and momentum.
 
@@ -22,7 +22,7 @@ The study will not load if your Sierra Chart username has not been authorized me
 
 Your Sierra Chart account name is listed here: https://www.sierrachart.com/UserControlPanel.php#AccountDetails
 
-Download the Effective Studies file https://github.com/rochford/effective_sierrachart_release/releases/download/v4.0.1/effectiveStudies_64.dll on this website and follow these steps: https://www.sierrachart.com/index.php?page=doc/UsingAdvancedCustomStudies.php#ManuallyInstallingAdvancedCustomStudyRelatedFiles 
+Download the Effective Studies file https://github.com/rochford/effective_sierrachart_release/releases/download/v5.0.0/effectiveStudies_64.dll on this website and follow these steps: https://www.sierrachart.com/index.php?page=doc/UsingAdvancedCustomStudies.php#ManuallyInstallingAdvancedCustomStudyRelatedFiles 
 Common problems are described here: https://www.sierrachart.com/index.php?page=doc/UsingAdvancedCustomStudies.php
 
 ### Effective Main Study setup
@@ -57,6 +57,9 @@ OpenPoc (Bullish and Bearish),
 AboveAbove (Bullish),
 BelowBelow (Bearish),
 ValueAreaIsland (Bullish and Bearish)
+Sequencing
+Market Sweep
+
 
 In addition to subgraphs, extension lines for Untested Value Areas, gaps between value areas, thin prints, Prominent Point Of Controls and Open Point of Control lookback bars can be configured to be drawn.
 
