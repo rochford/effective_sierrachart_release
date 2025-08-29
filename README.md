@@ -1,5 +1,7 @@
 # effective_sierrachart
 
+![SCREENSHOT](http://github.com/rochford/effective_sierrachart_release/blob/main/docs/effective_main.png)
+
 Everything is described on the website:
 
 Visit https://www.theaceofcharts.com/products/effective-sierrachart/
