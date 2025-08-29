@@ -1,77 +1,8 @@
 # effective_sierrachart
 
-##
+Everything is described on the website:
 
 Visit https://www.theaceofcharts.com/products/effective-sierrachart/
-
-## Introduction
-
-Release v6.0.0
-
-This is developed for myself and might be useful for you. A study collection to allow better understanding of Value Areas, Gaps, absorption, exhaustion and momentum.
-
-Here is a sample screenshot: ![SCREENSHOT](http://github.com/rochford/effective_sierrachart_release/blob/main/docs/effective_main.png)
-
-## Cost
-
-Can be used without charge or commitment for first month. After that it will cost 20 USD per month with payment made by Paypal using a link provided to you in email. I will request payment in email communication. 
-
-## Installation and Configuration
-
-The study will not load if your Sierra Chart username has not been authorized me. Email me (timothy.rochford@gmail.com) your Sierra Chart account name. 
-
-Your Sierra Chart account name is listed here: https://www.sierrachart.com/UserControlPanel.php#AccountDetails
-
-Download the Effective Studies file https://github.com/rochford/effective_sierrachart_release/releases/download/v6.0.0/effectiveStudies_64.dll on this website and follow these steps: https://www.sierrachart.com/index.php?page=doc/UsingAdvancedCustomStudies.php#ManuallyInstallingAdvancedCustomStudyRelatedFiles 
-Common problems are described here: https://www.sierrachart.com/index.php?page=doc/UsingAdvancedCustomStudies.php
-
-### Effective Main Study setup
-
-IN5: Effective Main Study depends upon Numbers Bar Calculated Values. Supply the StudyID of it.  
-
-### Effective Volume Imbalance Study setup
-
-This study requires some setup. "Volume At Price Threshold Alert V2" study must be on the chart twice. One configuration needs to highlight Bid price level imbalances and another study configuration needs to highlight Ask price level imbalances.
-See https://www.sierrachart.com/index.php?page=doc/StudiesReference.php&ID=386 . Once these 2 studies are on the chart, the Effective Volume Imbalance Study Input IN5 and IN6 need to have the study ID's set. 
-
-## Inputs
-
-## Subgraphs
-
-Exhaustion (Exhausted Sellers and Buyers),
-BarBidAskImbalance (Bullish and Bearish),
-PriceLevelBidAskImbalanceUp,
-PriceLevelBidAskImbalanceDown,
-SlingShotPoc (Bullish and Bearish),
-PairedPoc,
-PocWave (Bullish and Bearish),
-ZeroPrint (Bullish and Bearish),
-UntestedValueAreaProminentPoc (Bullish and Bearish),
-EngulfingValueArea (Bullish and Bearish),
-Ratio (Bullish and Bearish),
-Gap between value areas,
-VolumeDecline  (Bullish and Bearish),
-RetailSuck (Bullish and Bearish),
-DeltaTail  (Bullish and Bearish),
-OpenPoc (Bullish and Bearish),
-AboveAbove (Bullish),
-BelowBelow (Bearish),
-ValueAreaIsland (Bullish and Bearish)
-Sequencing
-Market Sweep
-
-
-In addition to subgraphs, extension lines for Untested Value Areas, gaps between value areas, thin prints, Prominent Point Of Controls and Open Point of Control lookback bars can be configured to be drawn.
-
-### VolumeImbalance
-
-Example: ![SCREENSHOT](http://github.com/rochford/effective_sierrachart_release/blob/main/docs/volumeImbalance.png)
-The imbalances do not need to be adjacent (stacked) and can be anywhere in the bar. 
-A sustained imblanance in a bar is where there was a same imbalance in the previous bar. Usually a sign of sustained trading at a level.
-
-## Notes
-
-Tested with 1 minute and 8 range 6E EuroCurrency charts. Other symbols and chart types are untested but should work. 
 
 ## Disclaimer
 
